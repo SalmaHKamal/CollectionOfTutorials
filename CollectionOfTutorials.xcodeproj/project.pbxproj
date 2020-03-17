@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8083A7DE2261FB0A0046DDD7 /* StretchyHeaderCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083A7DD2261FB0A0046DDD7 /* StretchyHeaderCollectionViewController.swift */; };
+		8083A7E12261FE390046DDD7 /* HeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083A7E02261FE390046DDD7 /* HeaderReusableView.swift */; };
+		8083A7E52262062C0046DDD7 /* HeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8083A7E42262062C0046DDD7 /* HeaderReusableView.xib */; };
+		8083A7E722620E170046DDD7 /* StretchyHeaderFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083A7E622620E170046DDD7 /* StretchyHeaderFlowLayout.swift */; };
 		80EF9E7B225E5F7B0090C453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF9E7A225E5F7B0090C453 /* AppDelegate.swift */; };
-		80EF9E7D225E5F7B0090C453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF9E7C225E5F7B0090C453 /* ViewController.swift */; };
+		80EF9E7D225E5F7B0090C453 /* PlayMusicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF9E7C225E5F7B0090C453 /* PlayMusicVC.swift */; };
 		80EF9E80225E5F7B0090C453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EF9E7E225E5F7B0090C453 /* Main.storyboard */; };
 		80EF9E82225E5F7D0090C453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EF9E81225E5F7D0090C453 /* Assets.xcassets */; };
 		80EF9E85225E5F7D0090C453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EF9E83225E5F7D0090C453 /* LaunchScreen.storyboard */; };
+		80EF9E8D225E611A0090C453 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF9E8C225E611A0090C453 /* MainTableViewController.swift */; };
+		80EF9E91225EB1E00090C453 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF9E90225EB1E00090C453 /* ActivityViewController.swift */; };
+		80F372F2225F12EC00019043 /* DynamicAttatchmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F372F1225F12EC00019043 /* DynamicAttatchmentVC.swift */; };
+		80F372F5225F1FA300019043 /* one.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F372F3225F1FA300019043 /* one.storyboard */; };
+		80F372F9225F207000019043 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F372F8225F207000019043 /* WebViewViewController.swift */; };
+		80F372FB225F2A4000019043 /* LocalAuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F372FA225F2A4000019043 /* LocalAuthenticationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8083A7DD2261FB0A0046DDD7 /* StretchyHeaderCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderCollectionViewController.swift; sourceTree = "<group>"; };
+		8083A7E02261FE390046DDD7 /* HeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderReusableView.swift; sourceTree = "<group>"; };
+		8083A7E42262062C0046DDD7 /* HeaderReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderReusableView.xib; sourceTree = "<group>"; };
+		8083A7E622620E170046DDD7 /* StretchyHeaderFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderFlowLayout.swift; sourceTree = "<group>"; };
 		80EF9E77225E5F7B0090C453 /* CollectionOfTutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionOfTutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EF9E7A225E5F7B0090C453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80EF9E7C225E5F7B0090C453 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80EF9E7C225E5F7B0090C453 /* PlayMusicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMusicVC.swift; sourceTree = "<group>"; };
 		80EF9E7F225E5F7B0090C453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80EF9E81225E5F7D0090C453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80EF9E84225E5F7D0090C453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80EF9E86225E5F7D0090C453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80EF9E8C225E611A0090C453 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		80EF9E90225EB1E00090C453 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		80F372F1225F12EC00019043 /* DynamicAttatchmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicAttatchmentVC.swift; sourceTree = "<group>"; };
+		80F372F4225F1FA300019043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CollectionOfTutorials/Base.lproj/one.storyboard; sourceTree = "<group>"; };
+		80F372F8225F207000019043 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		80F372FA225F2A4000019043 /* LocalAuthenticationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8083A7DF2261FE070046DDD7 /* StreatchyHeader  */ = {
+			isa = PBXGroup;
+			children = (
+				8083A7E02261FE390046DDD7 /* HeaderReusableView.swift */,
+				8083A7DD2261FB0A0046DDD7 /* StretchyHeaderCollectionViewController.swift */,
+				8083A7E42262062C0046DDD7 /* HeaderReusableView.xib */,
+				8083A7E622620E170046DDD7 /* StretchyHeaderFlowLayout.swift */,
+			);
+			path = "StreatchyHeader ";
+			sourceTree = "<group>";
+		};
 		80EF9E6E225E5F7B0090C453 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +85,37 @@
 		80EF9E79225E5F7B0090C453 /* CollectionOfTutorials */ = {
 			isa = PBXGroup;
 			children = (
+				80F372F7225F1FCA00019043 /* controllers */,
+				80F372F6225F1FB500019043 /* storyboards */,
 				80EF9E7A225E5F7B0090C453 /* AppDelegate.swift */,
-				80EF9E7C225E5F7B0090C453 /* ViewController.swift */,
-				80EF9E7E225E5F7B0090C453 /* Main.storyboard */,
 				80EF9E81225E5F7D0090C453 /* Assets.xcassets */,
-				80EF9E83225E5F7D0090C453 /* LaunchScreen.storyboard */,
 				80EF9E86225E5F7D0090C453 /* Info.plist */,
 			);
 			path = CollectionOfTutorials;
+			sourceTree = "<group>";
+		};
+		80F372F6225F1FB500019043 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				80F372F3225F1FA300019043 /* one.storyboard */,
+				80EF9E7E225E5F7B0090C453 /* Main.storyboard */,
+				80EF9E83225E5F7D0090C453 /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		80F372F7225F1FCA00019043 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8083A7DF2261FE070046DDD7 /* StreatchyHeader  */,
+				80EF9E7C225E5F7B0090C453 /* PlayMusicVC.swift */,
+				80EF9E8C225E611A0090C453 /* MainTableViewController.swift */,
+				80EF9E90225EB1E00090C453 /* ActivityViewController.swift */,
+				80F372F1225F12EC00019043 /* DynamicAttatchmentVC.swift */,
+				80F372F8225F207000019043 /* WebViewViewController.swift */,
+				80F372FA225F2A4000019043 /* LocalAuthenticationVC.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +178,9 @@
 			files = (
 				80EF9E85225E5F7D0090C453 /* LaunchScreen.storyboard in Resources */,
 				80EF9E82225E5F7D0090C453 /* Assets.xcassets in Resources */,
+				8083A7E52262062C0046DDD7 /* HeaderReusableView.xib in Resources */,
 				80EF9E80225E5F7B0090C453 /* Main.storyboard in Resources */,
+				80F372F5225F1FA300019043 /* one.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +191,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80EF9E7D225E5F7B0090C453 /* ViewController.swift in Sources */,
+				80EF9E7D225E5F7B0090C453 /* PlayMusicVC.swift in Sources */,
+				8083A7DE2261FB0A0046DDD7 /* StretchyHeaderCollectionViewController.swift in Sources */,
+				80F372F2225F12EC00019043 /* DynamicAttatchmentVC.swift in Sources */,
+				80EF9E8D225E611A0090C453 /* MainTableViewController.swift in Sources */,
 				80EF9E7B225E5F7B0090C453 /* AppDelegate.swift in Sources */,
+				8083A7E12261FE390046DDD7 /* HeaderReusableView.swift in Sources */,
+				80F372FB225F2A4000019043 /* LocalAuthenticationVC.swift in Sources */,
+				80F372F9225F207000019043 /* WebViewViewController.swift in Sources */,
+				8083A7E722620E170046DDD7 /* StretchyHeaderFlowLayout.swift in Sources */,
+				80EF9E91225EB1E00090C453 /* ActivityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +221,14 @@
 				80EF9E84225E5F7D0090C453 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		80F372F3225F1FA300019043 /* one.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F372F4225F1FA300019043 /* Base */,
+			);
+			name = one.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VH28277N9;
 				INFOPLIST_FILE = CollectionOfTutorials/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VH28277N9;
 				INFOPLIST_FILE = CollectionOfTutorials/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
